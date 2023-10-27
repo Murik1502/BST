@@ -18,7 +18,7 @@ func main() {
 	test.Insert(445)
 
 	fmt.Println(bst.DFS(test))
-	fmt.Println(bst.DelElement(test, 4))
+	fmt.Println(bst.DelElement(test, 5))
 	fmt.Println("new tree:", bst.DFS(test))
 	fmt.Println(bst.DelElement(test, 2321))
 	fmt.Println("new tree:", bst.DFS(test))

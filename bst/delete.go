@@ -11,6 +11,9 @@ func findIndex(tree *BST, value int) int {
 }
 
 func del(root *Node, value int) bool {
+	if root == nil {
+		return false
+	}
 	if root.Value == value {
 
 		if root.Left == nil && root.Right == nil {
